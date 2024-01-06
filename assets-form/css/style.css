@@ -1,0 +1,1026 @@
+/* CSS Document */
+.wrapper{
+	background: #26374a;
+	position: relative;
+	overflow: hidden;
+}
+.modal .modal-body .logo-header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.modal .modal-body .modal-content{
+    border: none;
+}
+.modal .modal-body .modal-content .modal-title{
+    text-align: center;
+    font-size: 25px;
+}
+.modal .modal-body .modal-content h4{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.modal .modal-body .modal-content p{
+    font-size: 15px;
+}
+.modal-content h2 span{
+font-size: 16px;
+position: relative;
+    bottom: 3px;
+}
+.modal-header{
+    border: none;
+    height: 0;
+}
+.modal .modal-body .modal-content p.text-justify{
+    text-align: justify;
+}
+.modal .modal-body .modal-content p.para{
+    font-size: 18px;
+    font-weight: 700;
+}
+.modal .modal-body .modal-content p{
+    margin-bottom: 0;
+}
+.modal .modal-footer{
+    border: none;
+}
+.legal{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.legal .content{
+     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.policy-text h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.legal .content{
+     display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.legal h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.legal .title{
+    margin-top: 14px;
+    text-align: center;
+    font-size: 27px;
+    margin: 0 0 .5rem;
+}
+.legal h5{
+    margin: 0 0 0.5rem;
+    font-size: 1.17rem;
+    text-align: center;
+}
+
+.legal .address{
+    margin: 35px 0px 45px;
+}
+.legal .content span{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.legal .content p{
+    margin:0
+
+}
+.legal .content p.para, .item-contact p.para{
+    font-size: 18px;
+    font-weight: 700;
+}
+p.para-dwtca{
+    font-size: 21px;
+    font-weight: 700;
+}
+.legal .content p, .item-contact p {
+    margin: 0;
+}
+
+p.para-dwtca{
+    font-size: 21px;
+    font-weight: 700;
+}
+header{
+	padding: 10px 0;
+}
+header .logo img{
+	height: 65px;
+}
+header .title-page p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    line-height: 65px;
+    font-weight: 700;
+}
+.title-form{
+    padding: 30px 0;
+    margin: 30px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+.title-form img{} 
+.title-form h1{
+    margin: 30px 0 0;
+    font-weight: 700;
+} 
+.title-form p{
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.disclaimer{
+    margin: 0 0 30px;
+}
+.disclaimer .collapse-holder{}
+.disclaimer .collapse-holder p{
+	margin: 0;
+}
+.disclaimer .collapse-holder p a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #26374a;
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+}
+.disclaimer .collapse-holder .collapse .card-body{
+    border-radius: 0;
+    border: 1px solid #26374a;
+}
+.disclaimer .collapse-holder .collapse .card-body p{
+    margin-bottom: 10px;
+    background: #ffffff;
+    font-size: 14px;
+    text-align: justify;
+}
+.disclaimer .collapse-holder .collapse .card-body p:last-child{
+	margin-bottom: 0;
+}
+#application-form{}
+#application-form .steps{
+    width: fit-content;
+    margin: 0 auto;
+}
+#application-form .steps ul{}
+#application-form .steps ul li{
+    width: 185px;
+    display: inline-block;
+}
+#application-form .steps ul li a{
+    padding: 10px 10px 10px 45px;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    height: 65px;
+    margin: 0 10px 0 0;
+}
+#application-form .steps ul li:last-child a{
+    margin: 0;
+}
+#application-form .steps ul li.current a{
+    background: #26374a;
+}
+#application-form .steps ul li.done a{
+    background: #26374a80;
+}
+#application-form .steps ul li a .number{
+    font-size: 18px;
+    background: #ffff;
+    color: #26374a;
+    padding: 0px 7px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
+}
+.wizard > .content{
+    margin: 10px 0;
+    border-radius: 0;
+}
+.wizard > .content > .body{
+	width: 100%;
+	position: relative;
+	height: fit-content;
+	padding: 20px;
+}
+#application-form .actions{}
+#application-form .actions ul li{
+    margin: 0 0 20px 20px;
+}
+#application-form .actions ul li a{
+    background: #26374a;
+    border-radius: 0;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#application-form .actions ul li.disabled a{
+	background: #d3deeb;
+}
+.title-block{}
+.title-block h4{
+    text-transform: uppercase;
+    border-bottom: 1px solid #26374a;
+    background: #85a2c8;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+.form-group .tooltipp{
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+.form-group .tooltipp .icon{
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 33px;
+    padding: 0px 8px 1px;
+}
+.form-group .tooltipp .tooltiptext{
+    font-size: 14px;
+    visibility: hidden;
+    position: absolute;
+    background: #002f6a;
+    color: #fff;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+    max-width: 450px;
+    left: 30px;
+    top: 5px;
+}
+.form-group .tooltipp:hover span.tooltiptext {
+    visibility: visible;
+}
+.form-group label{
+    font-weight: 500;
+}
+.form-group label span{
+    color: #ff0000;
+}
+.form-group input.form-control[type=text]{
+    border-radius: 0;
+}
+.form-group input.form-control[type=email]{
+    border-radius: 0;
+}
+.form-group select{
+    border-radius: 0;
+    appearance: auto;
+    padding: .5rem .5rem;
+}
+.form-group .form-control.error{
+	background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
+.displayNone{
+	display: none;
+}
+.disableDiv{
+	pointer-events: none;
+    opacity: 0.4;
+}
+.result-div{}
+.result-div .ulstep{
+    column-count: 2;
+    padding: 0;
+    margin: 0 0 20px;
+}
+.result-div .ulstep li{
+    list-style: none;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px;
+}
+.result-div .ulstep li:nth-child(odd){
+    /* background: #f9f9f9; */
+}
+.result-div .ulstep li label{
+    font-weight: 600;
+    margin: 0 20px 0 0 !important;
+}
+.result-div .ulstep li span{}
+
+.result-div .ulstep2{
+    column-count: 1;
+    padding: 0;
+    margin: 2px;
+}
+.result-div .ulstep2 li{
+    list-style: none;
+    padding: 12px 5px;
+    border-bottom: 1px solid #cccccc8f;
+    /* margin: 0 0 10px; */
+    position: relative;
+}
+.result-div .ulstep2 li:nth-child(odd){
+    background: #f9f9f9;
+}
+.result-div .ulstep2 li label{
+    font-weight: 600;
+    margin: 0 20px 0 0 !important;
+    width: calc(100% - 60px);
+}
+.result-div .ulstep2 li span{
+    position: absolute;
+    top: 12px;
+    width: fit-content;
+    display: block;
+    right: 11px;
+}
+.control-label{}
+.control-label .tooltipp{}
+.control-label .icon{}
+.control-label .tooltiptext{}
+.radio-option{}
+.radio-option .control-label{
+    display: inline-block;
+    width: 80px;
+}
+.radio-option .control-label input[type=radio]{
+    display: inline-block;
+    position: relative;
+    margin: 0 1rem 0 0 ;
+    cursor: pointer;
+}
+.radio-option .control-label input[type=radio]:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    border: 5px solid #bdbdbd;
+}
+.radio-option .control-label input[type=radio]:checked{
+    
+}
+.radio-option .control-label input[type=radio]:checked:before{
+    background: #ffffff;
+    border: 5px solid #26374a;
+}
+.radio-option .control-label input[type=radio]:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0;
+    height: 0;
+    background: #fff;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+}
+.checkbox{
+    padding: 50px 0 0;
+    position: relative;
+}
+.checkbox label{
+    font-weight: 500;
+    text-align: justify;
+}
+.checkbox label.error{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-weight: 600;
+    margin: 0 !important;
+}
+.checkbox label input{
+    display: inline-block;
+    position: relative;
+    margin: 0 1rem 0 0 ;
+    cursor: pointer;
+}
+.checkbox label input:before {
+    content: "";
+    -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+    -moz-transition: -moz-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+    transition: transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+    -webkit-transform: rotate(-45deg) scale(0, 0);
+    -moz-transform: rotate(-45deg) scale(0, 0);
+    -ms-transform: rotate(-45deg) scale(0, 0);
+    -o-transform: rotate(-45deg) scale(0, 0);
+    transform: rotate(-45deg) scale(0, 0);
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    width: 17px;
+    height: 8px;
+    border: 3px solid #00b939;
+    border-top-style: none;
+    border-right-style: none;
+}
+.checkbox label input:checked{
+    
+}
+.checkbox label input:checked:before{
+    -webkit-transform: rotate(-45deg) scale(1, 1);
+    -moz-transform: rotate(-45deg) scale(1, 1);
+    -ms-transform: rotate(-45deg) scale(1, 1);
+    -o-transform: rotate(-45deg) scale(1, 1);
+    transform: rotate(-45deg) scale(1, 1);
+}
+.checkbox label input:after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    background: #f5f5f5;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+footer{
+	background: #26374a;
+    padding: 60px 0 0 0;
+    text-align: center;
+}
+footer .info-footer{}
+footer .info-footer img{
+    height: 90px;
+}
+footer .info-footer p{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+footer .info-footer p strong{
+    display: block;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+footer .ssl-logo{}
+footer .ssl-logo img{
+    display: inline-block;
+    width: 40px;
+}
+footer .ssl-logo p{
+    display: inline-block;
+    color: #ffffff;
+}
+footer .menu-footer{
+    margin: 10px 0 30px;
+    display: contents;
+}
+footer .menu-footer button{
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+footer .legal-disclaimer-content{}
+footer .legal-disclaimer-content .text{
+    border-top: 1px solid #ffffff66;
+    color: #ffffff;
+    padding: 10px 0 0;
+}
+.page-contact {
+    margin: 30px 0;
+    color: #191918;
+    font-family: 'Open Sans', sans-serif;
+}
+.modal .page-contact .fisrt-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.page-contact .contact-form .form-group button {
+    width: 170px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #212121;
+    font-weight: 500;
+    padding: 5px 10px;
+    border: 1px solid;
+    transition: 0.5s;
+    display: block;
+}
+
+.title-form img {
+    height: 100px;
+}
+.page-contact .contact-form .form-group button {
+    width: 170px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #212121;
+    font-weight: 500;
+    padding: 5px 10px;
+    border: 1px solid;
+    transition: 0.5s;
+    display: block;
+}
+.page-contact .contact-form .form-group button:hover {
+    background: #26374A;
+    color: #ffffff;
+}
+
+/* ---------------- checkout -------------- */
+.header {
+    padding: 10px 0 10px;
+    position: relative;
+    background: #26374A;
+    overflow: hidden;
+}
+
+
+.header .logo-left {
+    text-align: left;
+}
+.header .logo-left h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+.header .logo-right p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: right;
+}
+.main {
+    padding: 50px;
+}
+.item-block {
+    background: #ffff;
+    padding: 20px;
+}
+
+.item-block .title-block {
+    margin-bottom: 20px;
+}
+
+.item-block .title-block h3 {
+    margin: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-payment #payment-form {
+    text-align: center;
+}
+
+.form-payment .frames-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 15px 15px;
+}
+
+.form-payment .frames-container #pay-now-button {
+    margin: 20px;
+    background: #03a84e;
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+.item-block .image-payment {
+    margin: 0 auto;
+}
+
+.item-block {
+    background: #ffff;
+    padding: 20px;
+}
+
+.item-block .title-block {
+    margin-bottom: 20px;
+}
+
+.item-block .title-block h3 {
+    margin: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info-block {
+    margin-bottom: 40px;
+}
+
+.info-block p {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background: #26374A;
+    margin-top: 60px;
+}
+
+.footer .logo-footer {
+    padding: 60px 0 60px 0;
+}
+
+.footer .logo-footer img {
+    height: 60px;
+}
+
+.footer p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 600px;
+    margin: 0 auto 1rem;
+}
+
+.footer .copyright {
+    border-top: 1px solid #fff;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+/*passport*/
+.upload-passport{
+    float: left;
+    padding: 0 10px;
+}
+.upload-passport .upload-type{
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+.upload-passport .upload-type .title-select{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.upload-passport .upload-type .text-or{
+    display: inline-block;
+    margin: 0;
+    height: 100px;
+}
+.upload-passport .upload-type .one-select{
+    width: 40% !important;
+    max-width: 290px;
+    text-align: center;
+    margin: 0 17px;
+}
+.upload-passport .upload-type .one-select input{
+    margin: 0 -4px 0 0;
+}
+.upload-passport .upload-type .one-select svg{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+.upload-passport .upload-type .one-select span{
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.upload-passport .upload-type label{
+    width: inherit !important;
+    margin-right: 40px;
+}
+.upload-passport .upload-block{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0;
+    display: none;
+}
+.upload-passport .upload-block .upload-loading{
+    text-align: center;
+}
+.upload-passport .upload-block .upload-loading img{
+    height: 100px;
+    margin: 20px;
+}
+.upload-passport .upload-block .upload-text{
+    display: none;
+}
+.upload-passport .upload-block .upload-text h3{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+.upload-passport .upload-block .upload-text h3 .get-new{display: inline-block;border: none;background: #0b4691;color: #fff;font-size: 12px;}
+.upload-passport .upload-block .upload-text .other-choise{
+    text-align: center;
+}
+.upload-passport .upload-block .upload-text .other-choise label{
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    line-height: 25px;
+}
+.upload-passport .upload-block .upload-text .other-choise label input{
+    margin: 0 10px 0;
+}
+.upload-passport .upload-block .upload-text .other-choise label input:before{
+    margin: 3px 0 0 0;
+}
+.upload-passport .upload-block .upload-text .other-choise label input:checked:before{
+    border: 5px solid #000000;
+}
+.upload-passport .upload-block .upload-text .other-choise .qr-code{
+    padding: 0 0 20px 0;
+    display: none;
+}
+.upload-passport .upload-block .upload-text .other-choise .qr-code img{
+    width: 185px;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message{
+    display: none;
+    padding: 0 0 0 50px;
+    text-align: left;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .sms-choise{
+    text-align: left;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .sms-choise .number-sms{
+    padding: 0px 0 0 35px;
+    display: none;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .sms-choise input{
+    padding: .5rem .75rem;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .message-send-sms{
+    margin: 10px 0 -10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .message-send-sms.ok{
+    color: #00a500;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .message-send-sms.ko{
+    color: #ff0000;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .send-sms{
+    border: none;
+    background: #000000;
+    color: #ffffff;
+    padding: .5rem 2rem;
+    margin: 20px 0 0 0;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .send-sms:disabled{
+    cursor: not-allowed;
+    opacity: .4;
+}
+.upload-passport .upload-block .upload-text .other-choise .send-message .try-again{
+    margin: 5px 0;
+    font-size: 14px;
+    display: none;
+}
+.upload-passport .upload-block .upload-text .check-uploqded{
+    background: #ffff;
+    padding: 10px;
+    margin: 30px 0 0;
+}
+.upload-passport .upload-block .upload-text .check-uploqded p{
+    margin: 0;
+    display: inline-block;
+}
+.upload-passport .upload-block .upload-text .check-uploqded button{
+    display: inline-block;
+    border: none;
+    background: #0b4691;
+    color: #fff;
+    font-size: 14px;
+}
+.upload-passport .upload-block .picture-uploaded{
+    display: none;
+    text-align: center;
+}
+.upload-passport .upload-block .picture-uploaded img{
+    height: 290px;
+}
+.clear-both{
+    clear: both;
+}
+.passport-info .col-md-6{
+    padding: 0 10px;
+    float: left;
+}
+.sample-passeport{
+    background: #fff;
+    text-align: center;
+}
+.sample-passeport h3{
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    color: #001946;
+    font-weight: 600;
+}
+.sample-passeport img{
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sample-passeport p{
+    font-size: 13px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 15px 18px;
+}
+.sample-passeport p strong{color: #ff0000;}
+
+#modal-confirmation {
+}
+#modal-confirmation .modal-dialog {
+    max-width: 710px;
+}
+#modal-confirmation .modal-dialog .modal-content {
+    width: 780px;
+    border-radius: 0;
+    border: none
+}
+#modal-confirmation .modal-dialog .modal-header {
+    background: #000000;
+    margin: 0;
+    border-radius: 0;
+    padding: 15px;
+    height: inherit;
+}
+#modal-confirmation .modal-dialog .modal-header h5 {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    font-size: 23px
+}
+#modal-confirmation .modal-dialog .modal-body h4 {
+    line-height: 25px;
+    font-size: 18px;
+}
+#modal-confirmation .modal-dialog .modal-body .checkbox {
+    margin: 20px 0 0;
+    border: none;
+    padding: 0 20px 0 50px
+}
+#modal-confirmation .modal-dialog .modal-body .checkbox label {
+}
+#modal-confirmation .modal-dialog .modal-body .checkbox label input {
+    margin: 0 -18px 0 0;
+    position: absolute;
+    left: 20px;
+    top: 6px
+}
+#modal-confirmation .modal-dialog .modal-body .checkbox label input:before {
+    top: 0;
+    left: -4px
+}
+#modal-confirmation .modal-dialog .modal-body .checkbox label input:after {
+    left: -7px;
+    top: -7px;
+    border-radius: 30px
+}
+#modal-confirmation .modal-dialog .modal-body .or-checkbox{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 120px;
+    width: 100%;
+}
+#modal-confirmation .modal-dialog .modal-body p.title-info {
+    margin: 20px 0;
+    text-align: center;
+    background: #ebebeb;
+    padding: 10px;
+    font-size: 15px
+}
+#modal-confirmation .modal-dialog .modal-body p {
+    font-size: 14px;
+    margin: 0
+}
+#modal-confirmation .modal-dialog .modal-body p.first-child {
+    margin: 20px 0 0
+}
+#modal-confirmation .modal-dialog .modal-footer {
+    display: inline-block;
+    border-top: 1px solid #6d90bd
+}
+#modal-confirmation .modal-dialog .modal-footer #change-phone-number {
+    background: #6c757d;
+    border: #6c757d;
+    border-radius: 0;
+    float: left;
+    margin: 0
+}
+#modal-confirmation .modal-dialog .modal-footer #send-code {
+    float: right;
+    border-radius: 0;
+    background: #000000;
+    border: 1px solid #000000;
+    padding: 5px 30px;
+    font-weight: 500;
+    margin: 0
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code {
+    border: 1px solid #6d90bd;
+    padding: 20px;
+    text-align: center
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code p {
+    font-size: 16px;
+    margin-bottom: 15px
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code input.error{
+    border-color: #f00;
+    background: #fff7f7;
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code .error-message{
+    color: #f00;
+    font-weight: 500;
+    margin: 5px 0 0;
+    display: none;
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code .buttons{
+    margin: 20px 0 0;
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code .buttons #check-code {
+    border: none;
+    background: #000000;
+    padding: 10px 20px;
+    color: #fff;
+    width: 240px;
+    margin-right: 10px;
+}
+#modal-confirmation .modal-dialog .modal-body .entry-code .buttons #try-again {
+    border: none;
+    background: #6c757d;
+    padding: 10px 20px;
+    color: #fff
+}
+
+
+
+
+

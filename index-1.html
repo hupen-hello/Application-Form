@@ -1,0 +1,1580 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/css/style-popup.css">
+    <link rel="shortcut icon" href="./Assets/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./Assets/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./Assets/images/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./Assets/images/favicon.png">
+    <title>Préparez votre départ</title>
+</head>
+
+<body>
+    <div class="bg-main">
+        <div id="header">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-lg-10 picture-1">
+                        <img src="./assets/images/logo-new.png" alt>
+                    </div>
+                    <div class="col-lg-2 picture-2">
+                        <p> Service clientèle </p>
+                        <p>6j/7 du lundi au samedi<br>de 09h à 21h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bg">
+                <img src="./assets/images/header-banner.png">
+            </div>
+        </div>
+        <div class="d-flex flex-column justify-content-between main-container">
+            <div class="container">
+                <div id="root">
+                    <div class="form-1" style="display: none;">
+                        <form action="/formulaire/" method="get" id="applyForm">
+                            <p class="title"><img src="./assets/images/logo-new-blue.png" style="height: 100px;" alt>
+                            </p>
+                            <div class="citizenship">
+                                <label>Sélectionnez votre nationalité</label>
+                                <div class="country-select inside">
+                                    <input id="citizenship" name="citizenship" value="France">
+                                    <div class="flag-dropdown">
+                                        <div class="selected-flag" title="France">
+                                            <div class="flag fr"></div>
+                                            <div class="arrow"></div>
+                                        </div>
+                                        <ul class="country-list hide">
+                                            <li class="country preferred active" data-country-code="gb">
+                                                <div class="flag gb"></div>
+                                                <span class="country-name">United Kingdom</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="fr">
+                                                <div class="flag fr"></div>
+                                                <span class="country-name">France</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="de">
+                                                <div class="flag de"></div>
+                                                <span class="country-name">Germany</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="gb">
+                                                <div class="flag gb"></div>
+                                                <span class="country-name">United Kingdom</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="es">
+                                                <div class="flag es"></div>
+                                                <span class="country-name">Spain</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="it">
+                                                <div class="flag it"></div>
+                                                <span class="country-name">Italy</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="ie">
+                                                <div class="flag ie"></div>
+                                                <span class="country-name">Ireland</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="be">
+                                                <div class="flag be"></div>
+                                                <span class="country-name">Belgium</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="bg">
+                                                <div class="flag bg"></div>
+                                                <span class="country-name">Bulgaria</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="ch">
+                                                <div class="flag ch"></div>
+                                                <span class="country-name">Switzerland</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="dk">
+                                                <div class="flag dk"></div>
+                                                <span class="country-name">Denmark</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="fi">
+                                                <div class="flag fi"></div>
+                                                <span class="country-name">Finland</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="gr">
+                                                <div class="flag gr"></div>
+                                                <span class="country-name">Greece</span>
+                                            </li>
+                                            <li class="country preferred" data-country-code="pt">
+                                                <div class="flag pt"></div>
+                                                <span class="country-name">Portugal</span>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li class="country" data-country-code="af">
+                                                <div class="flag af"></div>
+                                                <span class="country-name">Afghanistan</span>
+                                            </li>
+                                            <li class="country" data-country-code="ax">
+                                                <div class="flag ax"></div>
+                                                <span class="country-name">Åland Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="al">
+                                                <div class="flag al"></div>
+                                                <span class="country-name">Albania</span>
+                                            </li>
+                                            <li class="country" data-country-code="dz">
+                                                <div class="flag dz"></div>
+                                                <span class="country-name">Algeria</span>
+                                            </li>
+                                            <li class="country" data-country-code="as">
+                                                <div class="flag as"></div>
+                                                <span class="country-name">American Samoa</span>
+                                            </li>
+                                            <li class="country" data-country-code="ad">
+                                                <div class="flag ad"></div>
+                                                <span class="country-name">Andorra</span>
+                                            </li>
+                                            <li class="country" data-country-code="ao">
+                                                <div class="flag ao"></div>
+                                                <span class="country-name">Angola</span>
+                                            </li>
+                                            <li class="country" data-country-code="ai">
+                                                <div class="flag ai"></div>
+                                                <span class="country-name">Anguilla</span>
+                                            </li>
+                                            <li class="country" data-country-code="aq">
+                                                <div class="flag aq"></div>
+                                                <span class="country-name">Antarctica</span>
+                                            </li>
+                                            <li class="country" data-country-code="ag">
+                                                <div class="flag ag"></div>
+                                                <span class="country-name">Antigua and Barbuda</span>
+                                            </li>
+                                            <li class="country" data-country-code="ar">
+                                                <div class="flag ar"></div>
+                                                <span class="country-name">Argentina</span>
+                                            </li>
+                                            <li class="country" data-country-code="am">
+                                                <div class="flag am"></div>
+                                                <span class="country-name">Armenia</span>
+                                            </li>
+                                            <li class="country" data-country-code="aw">
+                                                <div class="flag aw"></div>
+                                                <span class="country-name">Aruba</span>
+                                            </li>
+                                            <li class="country" data-country-code="au">
+                                                <div class="flag au"></div>
+                                                <span class="country-name">Australia</span>
+                                            </li>
+                                            <li class="country" data-country-code="at">
+                                                <div class="flag at"></div>
+                                                <span class="country-name">Austria</span>
+                                            </li>
+                                            <li class="country" data-country-code="az">
+                                                <div class="flag az"></div>
+                                                <span class="country-name">Azerbaijan</span>
+                                            </li>
+                                            <li class="country" data-country-code="bs">
+                                                <div class="flag bs"></div>
+                                                <span class="country-name">Bahamas</span>
+                                            </li>
+                                            <li class="country" data-country-code="bh">
+                                                <div class="flag bh"></div>
+                                                <span class="country-name">Bahrain</span>
+                                            </li>
+                                            <li class="country" data-country-code="bd">
+                                                <div class="flag bd"></div>
+                                                <span class="country-name">Bangladesh</span>
+                                            </li>
+                                            <li class="country" data-country-code="bb">
+                                                <div class="flag bb"></div>
+                                                <span class="country-name">Barbados</span>
+                                            </li>
+                                            <li class="country" data-country-code="by">
+                                                <div class="flag by"></div>
+                                                <span class="country-name">Belarus</span>
+                                            </li>
+                                            <li class="country" data-country-code="be">
+                                                <div class="flag be"></div>
+                                                <span class="country-name">Belgium</span>
+                                            </li>
+                                            <li class="country" data-country-code="bz">
+                                                <div class="flag bz"></div>
+                                                <span class="country-name">Belize</span>
+                                            </li>
+                                            <li class="country" data-country-code="bj">
+                                                <div class="flag bj"></div>
+                                                <span class="country-name">Benin</span>
+                                            </li>
+                                            <li class="country" data-country-code="bm">
+                                                <div class="flag bm"></div>
+                                                <span class="country-name">Bermuda</span>
+                                            </li>
+                                            <li class="country" data-country-code="bt">
+                                                <div class="flag bt"></div>
+                                                <span class="country-name">Bhutan</span>
+                                            </li>
+                                            <li class="country" data-country-code="bo">
+                                                <div class="flag bo"></div>
+                                                <span class="country-name">Bolivia</span>
+                                            </li>
+                                            <li class="country" data-country-code="ba">
+                                                <div class="flag ba"></div>
+                                                <span class="country-name">Bosnia and Herzegovina</span>
+                                            </li>
+                                            <li class="country" data-country-code="bw">
+                                                <div class="flag bw"></div>
+                                                <span class="country-name">Botswana</span>
+                                            </li>
+                                            <li class="country" data-country-code="bv">
+                                                <div class="flag bv"></div>
+                                                <span class="country-name">Bouvet Island</span>
+                                            </li>
+                                            <li class="country" data-country-code="br">
+                                                <div class="flag br"></div>
+                                                <span class="country-name">Brazil</span>
+                                            </li>
+                                            <li class="country" data-country-code="io">
+                                                <div class="flag io"></div>
+                                                <span class="country-name">British Indian Ocean Territory</span>
+                                            </li>
+                                            <li class="country" data-country-code="vg">
+                                                <div class="flag vg"></div>
+                                                <span class="country-name">British Virgin Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="bn">
+                                                <div class="flag bn"></div>
+                                                <span class="country-name">Brunei</span>
+                                            </li>
+                                            <li class="country" data-country-code="bg">
+                                                <div class="flag bg"></div>
+                                                <span class="country-name">Bulgaria</span>
+                                            </li>
+                                            <li class="country" data-country-code="bf">
+                                                <div class="flag bf"></div>
+                                                <span class="country-name">Burkina Faso</span>
+                                            </li>
+                                            <li class="country" data-country-code="bi">
+                                                <div class="flag bi"></div>
+                                                <span class="country-name">Burundi</span>
+                                            </li>
+                                            <li class="country" data-country-code="kh">
+                                                <div class="flag kh"></div>
+                                                <span class="country-name">Cambodia</span>
+                                            </li>
+                                            <li class="country" data-country-code="cm">
+                                                <div class="flag cm"></div>
+                                                <span class="country-name">Cameroon</span>
+                                            </li>
+                                            <li class="country" data-country-code="ca">
+                                                <div class="flag ca"></div>
+                                                <span class="country-name">Canada</span>
+                                            </li>
+                                            <li class="country" data-country-code="cv">
+                                                <div class="flag cv"></div>
+                                                <span class="country-name">Cape Verde</span>
+                                            </li>
+                                            <li class="country" data-country-code="bq">
+                                                <div class="flag bq"></div>
+                                                <span class="country-name">Caribbean Netherlands</span>
+                                            </li>
+                                            <li class="country" data-country-code="ky">
+                                                <div class="flag ky"></div>
+                                                <span class="country-name">Cayman Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="cf">
+                                                <div class="flag cf"></div>
+                                                <span class="country-name">Central African Republic</span>
+                                            </li>
+                                            <li class="country" data-country-code="td">
+                                                <div class="flag td"></div>
+                                                <span class="country-name">Chad</span>
+                                            </li>
+                                            <li class="country" data-country-code="cl">
+                                                <div class="flag cl"></div>
+                                                <span class="country-name">Chile</span>
+                                            </li>
+                                            <li class="country" data-country-code="cn">
+                                                <div class="flag cn"></div>
+                                                <span class="country-name">China</span>
+                                            </li>
+                                            <li class="country" data-country-code="cx">
+                                                <div class="flag cx"></div>
+                                                <span class="country-name">Christmas Island</span>
+                                            </li>
+                                            <li class="country" data-country-code="cc">
+                                                <div class="flag cc"></div>
+                                                <span class="country-name">Cocos</span>
+                                            </li>
+                                            <li class="country" data-country-code="co">
+                                                <div class="flag co"></div>
+                                                <span class="country-name">Colombia</span>
+                                            </li>
+                                            <li class="country" data-country-code="km">
+                                                <div class="flag km"></div>
+                                                <span class="country-name">Comoros</span>
+                                            </li>
+                                            <li class="country" data-country-code="cd">
+                                                <div class="flag cd"></div>
+                                                <span class="country-name">Congo</span>
+                                            </li>
+                                            <li class="country" data-country-code="cg">
+                                                <div class="flag cg"></div>
+                                                <span class="country-name">Congo</span>
+                                            </li>
+                                            <li class="country" data-country-code="ck">
+                                                <div class="flag ck"></div>
+                                                <span class="country-name">Cook Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="cr">
+                                                <div class="flag cr"></div>
+                                                <span class="country-name">Costa Rica</span>
+                                            </li>
+                                            <li class="country" data-country-code="ci">
+                                                <div class="flag ci"></div>
+                                                <span class="country-name">Côte d’Ivoire</span>
+                                            </li>
+                                            <li class="country" data-country-code="hr">
+                                                <div class="flag hr"></div>
+                                                <span class="country-name">Croatia</span>
+                                            </li>
+                                            <li class="country" data-country-code="cu">
+                                                <div class="flag cu"></div>
+                                                <span class="country-name">Cuba</span>
+                                            </li>
+                                            <li class="country" data-country-code="cw">
+                                                <div class="flag cw"></div>
+                                                <span class="country-name">Curaçao</span>
+                                            </li>
+                                            <li class="country" data-country-code="cy">
+                                                <div class="flag cy"></div>
+                                                <span class="country-name">Cyprus</span>
+                                            </li>
+                                            <li class="country" data-country-code="cz">
+                                                <div class="flag cz"></div>
+                                                <span class="country-name">Czech Republic</span>
+                                            </li>
+                                            <li class="country" data-country-code="dk">
+                                                <div class="flag dk"></div>
+                                                <span class="country-name">Denmark</span>
+                                            </li>
+                                            <li class="country" data-country-code="dj">
+                                                <div class="flag dj"></div>
+                                                <span class="country-name">Djibouti</span>
+                                            </li>
+                                            <li class="country" data-country-code="dm">
+                                                <div class="flag dm"></div>
+                                                <span class="country-name">Dominica</span>
+                                            </li>
+                                            <li class="country" data-country-code="do">
+                                                <div class="flag do"></div>
+                                                <span class="country-name">Dominican Republic</span>
+                                            </li>
+                                            <li class="country" data-country-code="ec">
+                                                <div class="flag ec"></div>
+                                                <span class="country-name">Ecuador</span>
+                                            </li>
+                                            <li class="country" data-country-code="eg">
+                                                <div class="flag eg"></div>
+                                                <span class="country-name">Egypt</span>
+                                            </li>
+                                            <li class="country" data-country-code="sv">
+                                                <div class="flag sv"></div>
+                                                <span class="country-name">El Salvador</span>
+                                            </li>
+                                            <li class="country" data-country-code="gq">
+                                                <div class="flag gq"></div>
+                                                <span class="country-name">Equatorial Guinea</span>
+                                            </li>
+                                            <li class="country" data-country-code="er">
+                                                <div class="flag er"></div>
+                                                <span class="country-name">Eritrea</span>
+                                            </li>
+                                            <li class="country" data-country-code="ee">
+                                                <div class="flag ee"></div>
+                                                <span class="country-name">Estonia</span>
+                                            </li>
+                                            <li class="country" data-country-code="et">
+                                                <div class="flag et"></div>
+                                                <span class="country-name">Ethiopia</span>
+                                            </li>
+                                            <li class="country" data-country-code="fk">
+                                                <div class="flag fk"></div>
+                                                <span class="country-name">Falkland Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="fo">
+                                                <div class="flag fo"></div>
+                                                <span class="country-name">Faroe Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="fj">
+                                                <div class="flag fj"></div>
+                                                <span class="country-name">Fiji</span>
+                                            </li>
+                                            <li class="country" data-country-code="fi">
+                                                <div class="flag fi"></div>
+                                                <span class="country-name">Finland</span>
+                                            </li>
+                                            <li class="country" data-country-code="fr">
+                                                <div class="flag fr"></div>
+                                                <span class="country-name">France</span>
+                                            </li>
+                                            <li class="country" data-country-code="gf">
+                                                <div class="flag gf"></div>
+                                                <span class="country-name">French Guiana</span>
+                                            </li>
+                                            <li class="country" data-country-code="pf">
+                                                <div class="flag pf"></div>
+                                                <span class="country-name">French Polynesia</span>
+                                            </li>
+                                            <li class="country" data-country-code="tf">
+                                                <div class="flag tf"></div>
+                                                <span class="country-name">French Southern Territories</span>
+                                            </li>
+                                            <li class="country" data-country-code="ga">
+                                                <div class="flag ga"></div>
+                                                <span class="country-name">Gabon</span>
+                                            </li>
+                                            <li class="country" data-country-code="gm">
+                                                <div class="flag gm"></div>
+                                                <span class="country-name">Gambia</span>
+                                            </li>
+                                            <li class="country" data-country-code="ge">
+                                                <div class="flag ge"></div>
+                                                <span class="country-name">Georgia</span>
+                                            </li>
+                                            <li class="country" data-country-code="de">
+                                                <div class="flag de"></div>
+                                                <span class="country-name">Germany</span>
+                                            </li>
+                                            <li class="country" data-country-code="gh">
+                                                <div class="flag gh"></div>
+                                                <span class="country-name">Ghana</span>
+                                            </li>
+                                            <li class="country" data-country-code="gi">
+                                                <div class="flag gi"></div>
+                                                <span class="country-name">Gibraltar</span>
+                                            </li>
+                                            <li class="country" data-country-code="gr">
+                                                <div class="flag gr"></div>
+                                                <span class="country-name">Greece</span>
+                                            </li>
+                                            <li class="country" data-country-code="gl">
+                                                <div class="flag gl"></div>
+                                                <span class="country-name">Greenland</span>
+                                            </li>
+                                            <li class="country" data-country-code="gd">
+                                                <div class="flag gd"></div>
+                                                <span class="country-name">Grenada</span>
+                                            </li>
+                                            <li class="country" data-country-code="gp">
+                                                <div class="flag gp"></div>
+                                                <span class="country-name">Guadeloupe</span>
+                                            </li>
+                                            <li class="country" data-country-code="gu">
+                                                <div class="flag gu"></div>
+                                                <span class="country-name">Guam</span>
+                                            </li>
+                                            <li class="country" data-country-code="gt">
+                                                <div class="flag gt"></div>
+                                                <span class="country-name">Guatemala</span>
+                                            </li>
+                                            <li class="country" data-country-code="gg">
+                                                <div class="flag gg"></div>
+                                                <span class="country-name">Guernsey</span>
+                                            </li>
+                                            <li class="country" data-country-code="gn">
+                                                <div class="flag gn"></div>
+                                                <span class="country-name">Guinea</span>
+                                            </li>
+                                            <li class="country" data-country-code="gw">
+                                                <div class="flag gw"></div>
+                                                <span class="country-name">Guinea-Bissau</span>
+                                            </li>
+                                            <li class="country" data-country-code="gy">
+                                                <div class="flag gy"></div>
+                                                <span class="country-name">Guyana</span>
+                                            </li>
+                                            <li class="country" data-country-code="ht">
+                                                <div class="flag ht"></div>
+                                                <span class="country-name">Haiti</span>
+                                            </li>
+                                            <li class="country" data-country-code="hm">
+                                                <div class="flag hm"></div>
+                                                <span class="country-name">Heard Island and Mcdonald Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="hn">
+                                                <div class="flag hn"></div>
+                                                <span class="country-name">Honduras</span>
+                                            </li>
+                                            <li class="country" data-country-code="hk">
+                                                <div class="flag hk"></div>
+                                                <span class="country-name">Hong Kong</span>
+                                            </li>
+                                            <li class="country" data-country-code="hu">
+                                                <div class="flag hu"></div>
+                                                <span class="country-name">Hungary</span>
+                                            </li>
+                                            <li class="country" data-country-code="is">
+                                                <div class="flag is"></div>
+                                                <span class="country-name">Iceland</span>
+                                            </li>
+                                            <li class="country" data-country-code="in">
+                                                <div class="flag in"></div>
+                                                <span class="country-name">India</span>
+                                            </li>
+                                            <li class="country" data-country-code="id">
+                                                <div class="flag id"></div>
+                                                <span class="country-name">Indonesia</span>
+                                            </li>
+                                            <li class="country" data-country-code="ir">
+                                                <div class="flag ir"></div>
+                                                <span class="country-name">Iran</span>
+                                            </li>
+                                            <li class="country" data-country-code="iq">
+                                                <div class="flag iq"></div>
+                                                <span class="country-name">Iraq</span>
+                                            </li>
+                                            <li class="country" data-country-code="ie">
+                                                <div class="flag ie"></div>
+                                                <span class="country-name">Ireland</span>
+                                            </li>
+                                            <li class="country" data-country-code="im">
+                                                <div class="flag im"></div>
+                                                <span class="country-name">Isle of Man</span>
+                                            </li>
+                                            <li class="country" data-country-code="il">
+                                                <div class="flag il"></div>
+                                                <span class="country-name">Israel</span>
+                                            </li>
+                                            <li class="country" data-country-code="it">
+                                                <div class="flag it"></div>
+                                                <span class="country-name">Italy</span>
+                                            </li>
+                                            <li class="country" data-country-code="jm">
+                                                <div class="flag jm"></div>
+                                                <span class="country-name">Jamaica</span>
+                                            </li>
+                                            <li class="country" data-country-code="jp">
+                                                <div class="flag jp"></div>
+                                                <span class="country-name">Japan</span>
+                                            </li>
+                                            <li class="country" data-country-code="je">
+                                                <div class="flag je"></div>
+                                                <span class="country-name">Jersey</span>
+                                            </li>
+                                            <li class="country" data-country-code="jo">
+                                                <div class="flag jo"></div>
+                                                <span class="country-name">Jordan</span>
+                                            </li>
+                                            <li class="country" data-country-code="kz">
+                                                <div class="flag kz"></div>
+                                                <span class="country-name">Kazakhstan</span>
+                                            </li>
+                                            <li class="country" data-country-code="ke">
+                                                <div class="flag ke"></div>
+                                                <span class="country-name">Kenya</span>
+                                            </li>
+                                            <li class="country" data-country-code="ki">
+                                                <div class="flag ki"></div>
+                                                <span class="country-name">Kiribati</span>
+                                            </li>
+                                            <li class="country" data-country-code="xk">
+                                                <div class="flag xk"></div>
+                                                <span class="country-name">Kosovo</span>
+                                            </li>
+                                            <li class="country" data-country-code="kw">
+                                                <div class="flag kw"></div>
+                                                <span class="country-name">Kuwait</span>
+                                            </li>
+                                            <li class="country" data-country-code="kg">
+                                                <div class="flag kg"></div>
+                                                <span class="country-name">Kyrgyzstan</span>
+                                            </li>
+                                            <li class="country" data-country-code="la">
+                                                <div class="flag la"></div>
+                                                <span class="country-name">Laos</span>
+                                            </li>
+                                            <li class="country" data-country-code="lv">
+                                                <div class="flag lv"></div>
+                                                <span class="country-name">Latvia</span>
+                                            </li>
+                                            <li class="country" data-country-code="lb">
+                                                <div class="flag lb"></div>
+                                                <span class="country-name">Lebanon</span>
+                                            </li>
+                                            <li class="country" data-country-code="ls">
+                                                <div class="flag ls"></div>
+                                                <span class="country-name">Lesotho</span>
+                                            </li>
+                                            <li class="country" data-country-code="lr">
+                                                <div class="flag lr"></div>
+                                                <span class="country-name">Liberia</span>
+                                            </li>
+                                            <li class="country" data-country-code="ly">
+                                                <div class="flag ly"></div>
+                                                <span class="country-name">Libya</span>
+                                            </li>
+                                            <li class="country" data-country-code="li">
+                                                <div class="flag li"></div>
+                                                <span class="country-name">Liechtenstein</span>
+                                            </li>
+                                            <li class="country" data-country-code="lt">
+                                                <div class="flag lt"></div>
+                                                <span class="country-name">Lithuania</span>
+                                            </li>
+                                            <li class="country" data-country-code="lu">
+                                                <div class="flag lu"></div>
+                                                <span class="country-name">Luxembourg</span>
+                                            </li>
+                                            <li class="country" data-country-code="mo">
+                                                <div class="flag mo"></div>
+                                                <span class="country-name">Macau</span>
+                                            </li>
+                                            <li class="country" data-country-code="mk">
+                                                <div class="flag mk"></div>
+                                                <span class="country-name">Macedonia</span>
+                                            </li>
+                                            <li class="country" data-country-code="mg">
+                                                <div class="flag mg"></div>
+                                                <span class="country-name">Madagascar</span>
+                                            </li>
+                                            <li class="country" data-country-code="mw">
+                                                <div class="flag mw"></div>
+                                                <span class="country-name">Malawi</span>
+                                            </li>
+                                            <li class="country" data-country-code="my">
+                                                <div class="flag my"></div>
+                                                <span class="country-name">Malaysia</span>
+                                            </li>
+                                            <li class="country" data-country-code="mv">
+                                                <div class="flag mv"></div>
+                                                <span class="country-name">Maldives</span>
+                                            </li>
+                                            <li class="country" data-country-code="ml">
+                                                <div class="flag ml"></div>
+                                                <span class="country-name">Mali</span>
+                                            </li>
+                                            <li class="country" data-country-code="mt">
+                                                <div class="flag mt"></div>
+                                                <span class="country-name">Malta</span>
+                                            </li>
+                                            <li class="country" data-country-code="mh">
+                                                <div class="flag mh"></div>
+                                                <span class="country-name">Marshall Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="mq">
+                                                <div class="flag mq"></div>
+                                                <span class="country-name">Martinique</span>
+                                            </li>
+                                            <li class="country" data-country-code="mr">
+                                                <div class="flag mr"></div>
+                                                <span class="country-name">Mauritania</span>
+                                            </li>
+                                            <li class="country" data-country-code="mu">
+                                                <div class="flag mu"></div>
+                                                <span class="country-name">Mauritius</span>
+                                            </li>
+                                            <li class="country" data-country-code="yt">
+                                                <div class="flag yt"></div>
+                                                <span class="country-name">Mayotte</span>
+                                            </li>
+                                            <li class="country" data-country-code="mx">
+                                                <div class="flag mx"></div>
+                                                <span class="country-name">Mexico</span>
+                                            </li>
+                                            <li class="country" data-country-code="fm">
+                                                <div class="flag fm"></div>
+                                                <span class="country-name">Micronesia</span>
+                                            </li>
+                                            <li class="country" data-country-code="md">
+                                                <div class="flag md"></div>
+                                                <span class="country-name">Moldova</span>
+                                            </li>
+                                            <li class="country" data-country-code="mc">
+                                                <div class="flag mc"></div>
+                                                <span class="country-name">Monaco</span>
+                                            </li>
+                                            <li class="country" data-country-code="mn">
+                                                <div class="flag mn"></div>
+                                                <span class="country-name">Mongolia</span>
+                                            </li>
+                                            <li class="country" data-country-code="me">
+                                                <div class="flag me"></div>
+                                                <span class="country-name">Montenegro</span>
+                                            </li>
+                                            <li class="country" data-country-code="ms">
+                                                <div class="flag ms"></div>
+                                                <span class="country-name">Montserrat</span>
+                                            </li>
+                                            <li class="country" data-country-code="ma">
+                                                <div class="flag ma"></div>
+                                                <span class="country-name">Morocco</span>
+                                            </li>
+                                            <li class="country" data-country-code="mz">
+                                                <div class="flag mz"></div>
+                                                <span class="country-name">Mozambique</span>
+                                            </li>
+                                            <li class="country" data-country-code="mm">
+                                                <div class="flag mm"></div>
+                                                <span class="country-name">Myanmar</span>
+                                            </li>
+                                            <li class="country" data-country-code="na">
+                                                <div class="flag na"></div>
+                                                <span class="country-name">Namibia</span>
+                                            </li>
+                                            <li class="country" data-country-code="nr">
+                                                <div class="flag nr"></div>
+                                                <span class="country-name">Nauru</span>
+                                            </li>
+                                            <li class="country" data-country-code="np">
+                                                <div class="flag np"></div>
+                                                <span class="country-name">Nepal</span>
+                                            </li>
+                                            <li class="country" data-country-code="nl">
+                                                <div class="flag nl"></div>
+                                                <span class="country-name">Netherlands</span>
+                                            </li>
+                                            <li class="country" data-country-code="nc">
+                                                <div class="flag nc"></div>
+                                                <span class="country-name">New Caledonia</span>
+                                            </li>
+                                            <li class="country" data-country-code="nz">
+                                                <div class="flag nz"></div>
+                                                <span class="country-name">New Zealand</span>
+                                            </li>
+                                            <li class="country" data-country-code="ni">
+                                                <div class="flag ni"></div>
+                                                <span class="country-name">Nicaragua</span>
+                                            </li>
+                                            <li class="country" data-country-code="ne">
+                                                <div class="flag ne"></div>
+                                                <span class="country-name">Niger</span>
+                                            </li>
+                                            <li class="country" data-country-code="ng">
+                                                <div class="flag ng"></div>
+                                                <span class="country-name">Nigeria</span>
+                                            </li>
+                                            <li class="country" data-country-code="nu">
+                                                <div class="flag nu"></div>
+                                                <span class="country-name">Niue</span>
+                                            </li>
+                                            <li class="country" data-country-code="nf">
+                                                <div class="flag nf"></div>
+                                                <span class="country-name">Norfolk Island</span>
+                                            </li>
+                                            <li class="country" data-country-code="kp">
+                                                <div class="flag kp"></div>
+                                                <span class="country-name">North Korea</span>
+                                            </li>
+                                            <li class="country" data-country-code="mp">
+                                                <div class="flag mp"></div>
+                                                <span class="country-name">Northern Mariana Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="no">
+                                                <div class="flag no"></div>
+                                                <span class="country-name">Norway</span>
+                                            </li>
+                                            <li class="country" data-country-code="om">
+                                                <div class="flag om"></div>
+                                                <span class="country-name">Oman</span>
+                                            </li>
+                                            <li class="country" data-country-code="pk">
+                                                <div class="flag pk"></div>
+                                                <span class="country-name">Pakistan</span>
+                                            </li>
+                                            <li class="country" data-country-code="pw">
+                                                <div class="flag pw"></div>
+                                                <span class="country-name">Palau</span>
+                                            </li>
+                                            <li class="country" data-country-code="ps">
+                                                <div class="flag ps"></div>
+                                                <span class="country-name">Palestine</span>
+                                            </li>
+                                            <li class="country" data-country-code="pa">
+                                                <div class="flag pa"></div>
+                                                <span class="country-name">Panama</span>
+                                            </li>
+                                            <li class="country" data-country-code="pg">
+                                                <div class="flag pg"></div>
+                                                <span class="country-name">Papua New Guinea</span>
+                                            </li>
+                                            <li class="country" data-country-code="py">
+                                                <div class="flag py"></div>
+                                                <span class="country-name">Paraguay</span>
+                                            </li>
+                                            <li class="country" data-country-code="pe">
+                                                <div class="flag pe"></div>
+                                                <span class="country-name">Peru</span>
+                                            </li>
+                                            <li class="country" data-country-code="ph">
+                                                <div class="flag ph"></div>
+                                                <span class="country-name">Philippines</span>
+                                            </li>
+                                            <li class="country" data-country-code="pn">
+                                                <div class="flag pn"></div>
+                                                <span class="country-name">Pitcairn Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="pl">
+                                                <div class="flag pl"></div>
+                                                <span class="country-name">Poland</span>
+                                            </li>
+                                            <li class="country" data-country-code="pt">
+                                                <div class="flag pt"></div>
+                                                <span class="country-name">Portugal</span>
+                                            </li>
+                                            <li class="country" data-country-code="pr">
+                                                <div class="flag pr"></div>
+                                                <span class="country-name">Puerto Rico</span>
+                                            </li>
+                                            <li class="country" data-country-code="qa">
+                                                <div class="flag qa"></div>
+                                                <span class="country-name">Qatar</span>
+                                            </li>
+                                            <li class="country" data-country-code="re">
+                                                <div class="flag re"></div>
+                                                <span class="country-name">Réunion</span>
+                                            </li>
+                                            <li class="country" data-country-code="ro">
+                                                <div class="flag ro"></div>
+                                                <span class="country-name">Romania</span>
+                                            </li>
+                                            <li class="country" data-country-code="ru">
+                                                <div class="flag ru"></div>
+                                                <span class="country-name">Russia</span>
+                                            </li>
+                                            <li class="country" data-country-code="rw">
+                                                <div class="flag rw"></div>
+                                                <span class="country-name">Rwanda</span>
+                                            </li>
+                                            <li class="country" data-country-code="bl">
+                                                <div class="flag bl"></div>
+                                                <span class="country-name">Saint Barthélemy</span>
+                                            </li>
+                                            <li class="country" data-country-code="sh">
+                                                <div class="flag sh"></div>
+                                                <span class="country-name">Saint Helena</span>
+                                            </li>
+                                            <li class="country" data-country-code="kn">
+                                                <div class="flag kn"></div>
+                                                <span class="country-name">Saint Kitts and Nevis</span>
+                                            </li>
+                                            <li class="country" data-country-code="lc">
+                                                <div class="flag lc"></div>
+                                                <span class="country-name">Saint Lucia</span>
+                                            </li>
+                                            <li class="country" data-country-code="mf">
+                                                <div class="flag mf"></div>
+                                                <span class="country-name">Saint Martin</span>
+                                            </li>
+                                            <li class="country" data-country-code="pm">
+                                                <div class="flag pm"></div>
+                                                <span class="country-name">Saint Pierre and Miquelon</span>
+                                            </li>
+                                            <li class="country" data-country-code="vc">
+                                                <div class="flag vc"></div>
+                                                <span class="country-name">Saint Vincent and the Grenadines</span>
+                                            </li>
+                                            <li class="country" data-country-code="ws">
+                                                <div class="flag ws"></div>
+                                                <span class="country-name">Samoa</span>
+                                            </li>
+                                            <li class="country" data-country-code="sm">
+                                                <div class="flag sm"></div>
+                                                <span class="country-name">San Marino</span>
+                                            </li>
+                                            <li class="country" data-country-code="st">
+                                                <div class="flag st"></div>
+                                                <span class="country-name">São Tomé and Príncipe</span>
+                                            </li>
+                                            <li class="country" data-country-code="sa">
+                                                <div class="flag sa"></div>
+                                                <span class="country-name">Saudi Arabia</span>
+                                            </li>
+                                            <li class="country" data-country-code="sn">
+                                                <div class="flag sn"></div>
+                                                <span class="country-name">Senegal</span>
+                                            </li>
+                                            <li class="country" data-country-code="rs">
+                                                <div class="flag rs"></div>
+                                                <span class="country-name">Serbia</span>
+                                            </li>
+                                            <li class="country" data-country-code="sc">
+                                                <div class="flag sc"></div>
+                                                <span class="country-name">Seychelles</span>
+                                            </li>
+                                            <li class="country" data-country-code="sl">
+                                                <div class="flag sl"></div>
+                                                <span class="country-name">Sierra Leone</span>
+                                            </li>
+                                            <li class="country" data-country-code="sg">
+                                                <div class="flag sg"></div>
+                                                <span class="country-name">Singapore</span>
+                                            </li>
+                                            <li class="country" data-country-code="sx">
+                                                <div class="flag sx"></div>
+                                                <span class="country-name">Sint Maarten</span>
+                                            </li>
+                                            <li class="country" data-country-code="sk">
+                                                <div class="flag sk"></div>
+                                                <span class="country-name">Slovakia</span>
+                                            </li>
+                                            <li class="country" data-country-code="si">
+                                                <div class="flag si"></div>
+                                                <span class="country-name">Slovenia</span>
+                                            </li>
+                                            <li class="country" data-country-code="sb">
+                                                <div class="flag sb"></div>
+                                                <span class="country-name">Solomon Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="so">
+                                                <div class="flag so"></div>
+                                                <span class="country-name">Somalia</span>
+                                            </li>
+                                            <li class="country" data-country-code="za">
+                                                <div class="flag za"></div>
+                                                <span class="country-name">South Africa</span>
+                                            </li>
+                                            <li class="country" data-country-code="gs">
+                                                <div class="flag gs"></div>
+                                                <span class="country-name">South Georgia &amp; South Sandwich
+                                                    Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="kr">
+                                                <div class="flag kr"></div>
+                                                <span class="country-name">South Korea</span>
+                                            </li>
+                                            <li class="country" data-country-code="ss">
+                                                <div class="flag ss"></div>
+                                                <span class="country-name">South Sudan</span>
+                                            </li>
+                                            <li class="country" data-country-code="es">
+                                                <div class="flag es"></div>
+                                                <span class="country-name">Spain</span>
+                                            </li>
+                                            <li class="country" data-country-code="lk">
+                                                <div class="flag lk"></div>
+                                                <span class="country-name">Sri Lanka</span>
+                                            </li>
+                                            <li class="country" data-country-code="sd">
+                                                <div class="flag sd"></div>
+                                                <span class="country-name">Sudan</span>
+                                            </li>
+                                            <li class="country" data-country-code="sr">
+                                                <div class="flag sr"></div>
+                                                <span class="country-name">Suriname</span>
+                                            </li>
+                                            <li class="country" data-country-code="sj">
+                                                <div class="flag sj"></div>
+                                                <span class="country-name">Svalbard and Jan Mayen</span>
+                                            </li>
+                                            <li class="country" data-country-code="sz">
+                                                <div class="flag sz"></div>
+                                                <span class="country-name">Swaziland</span>
+                                            </li>
+                                            <li class="country" data-country-code="se">
+                                                <div class="flag se"></div>
+                                                <span class="country-name">Sweden</span>
+                                            </li>
+                                            <li class="country" data-country-code="ch">
+                                                <div class="flag ch"></div>
+                                                <span class="country-name">Switzerland</span>
+                                            </li>
+                                            <li class="country" data-country-code="sy">
+                                                <div class="flag sy"></div>
+                                                <span class="country-name">Syria</span>
+                                            </li>
+                                            <li class="country" data-country-code="tw">
+                                                <div class="flag tw"></div>
+                                                <span class="country-name">Taiwan</span>
+                                            </li>
+                                            <li class="country" data-country-code="tj">
+                                                <div class="flag tj"></div>
+                                                <span class="country-name">Tajikistan</span>
+                                            </li>
+                                            <li class="country" data-country-code="tz">
+                                                <div class="flag tz"></div>
+                                                <span class="country-name">Tanzania</span>
+                                            </li>
+                                            <li class="country" data-country-code="th">
+                                                <div class="flag th"></div>
+                                                <span class="country-name">Thailand</span>
+                                            </li>
+                                            <li class="country" data-country-code="tl">
+                                                <div class="flag tl"></div>
+                                                <span class="country-name">Timor-Leste</span>
+                                            </li>
+                                            <li class="country" data-country-code="tg">
+                                                <div class="flag tg"></div>
+                                                <span class="country-name">Togo</span>
+                                            </li>
+                                            <li class="country" data-country-code="tk">
+                                                <div class="flag tk"></div>
+                                                <span class="country-name">Tokelau</span>
+                                            </li>
+                                            <li class="country" data-country-code="to">
+                                                <div class="flag to"></div>
+                                                <span class="country-name">Tonga</span>
+                                            </li>
+                                            <li class="country" data-country-code="tt">
+                                                <div class="flag tt"></div>
+                                                <span class="country-name">Trinidad and Tobago</span>
+                                            </li>
+                                            <li class="country" data-country-code="tn">
+                                                <div class="flag tn"></div>
+                                                <span class="country-name">Tunisia</span>
+                                            </li>
+                                            <li class="country" data-country-code="tr">
+                                                <div class="flag tr"></div>
+                                                <span class="country-name">Turkey</span>
+                                            </li>
+                                            <li class="country" data-country-code="tm">
+                                                <div class="flag tm"></div>
+                                                <span class="country-name">Turkmenistan</span>
+                                            </li>
+                                            <li class="country" data-country-code="tc">
+                                                <div class="flag tc"></div>
+                                                <span class="country-name">Turks and Caicos Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="tv">
+                                                <div class="flag tv"></div>
+                                                <span class="country-name">Tuvalu</span>
+                                            </li>
+                                            <li class="country" data-country-code="ug">
+                                                <div class="flag ug"></div>
+                                                <span class="country-name">Uganda</span>
+                                            </li>
+                                            <li class="country" data-country-code="ua">
+                                                <div class="flag ua"></div>
+                                                <span class="country-name">Ukraine</span>
+                                            </li>
+                                            <li class="country" data-country-code="ae">
+                                                <div class="flag ae"></div>
+                                                <span class="country-name">United Arab Emirates</span>
+                                            </li>
+                                            <li class="country" data-country-code="gb">
+                                                <div class="flag gb"></div>
+                                                <span class="country-name">United Kingdom</span>
+                                            </li>
+                                            <li class="country" data-country-code="us">
+                                                <div class="flag us"></div>
+                                                <span class="country-name">United States</span>
+                                            </li>
+                                            <li class="country" data-country-code="um">
+                                                <div class="flag um"></div>
+                                                <span class="country-name">U.S. Minor Outlying Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="vi">
+                                                <div class="flag vi"></div>
+                                                <span class="country-name">U.S. Virgin Islands</span>
+                                            </li>
+                                            <li class="country" data-country-code="uy">
+                                                <div class="flag uy"></div>
+                                                <span class="country-name">Uruguay</span>
+                                            </li>
+                                            <li class="country" data-country-code="uz">
+                                                <div class="flag uz"></div>
+                                                <span class="country-name">Uzbekistan</span>
+                                            </li>
+                                            <li class="country" data-country-code="vu">
+                                                <div class="flag vu"></div>
+                                                <span class="country-name">Vanuatu</span>
+                                            </li>
+                                            <li class="country" data-country-code="va">
+                                                <div class="flag va"></div>
+                                                <span class="country-name">Vatican City</span>
+                                            </li>
+                                            <li class="country" data-country-code="ve">
+                                                <div class="flag ve"></div>
+                                                <span class="country-name">Venezuela</span>
+                                            </li>
+                                            <li class="country" data-country-code="vn">
+                                                <div class="flag vn"></div>
+                                                <span class="country-name">Vietnam</span>
+                                            </li>
+                                            <li class="country" data-country-code="wf">
+                                                <div class="flag wf"></div>
+                                                <span class="country-name">Wallis and Futuna</span>
+                                            </li>
+                                            <li class="country" data-country-code="eh">
+                                                <div class="flag eh"></div>
+                                                <span class="country-name">Western Sahara</span>
+                                            </li>
+                                            <li class="country" data-country-code="ye">
+                                                <div class="flag ye"></div>
+                                                <span class="country-name">Yemen</span>
+                                            </li>
+                                            <li class="country" data-country-code="zm">
+                                                <div class="flag zm"></div>
+                                                <span class="country-name">Zambia</span>
+                                            </li>
+                                            <li class="country" data-country-code="zw">
+                                                <div class="flag zw"></div>
+                                                <span class="country-name">Zimbabwe</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reason">
+                                <h2>Sélectionnez le type de votre voyage :</h2>
+                                <div class="btn-group" role="group">
+                                    <a href="index.html"> <input type="radio" name="reason" class="btn-check"
+                                            value="Tourisme">
+
+
+                                        <label class="btn" for="tourism">
+                                            <i class="fas fa-umbrella-beach"></i>
+                                            Tourisme
+                                        </label>
+                                    </a>
+                                    <a href="index.html">
+                                        <input type="radio" name="reason" class="btn-check" 
+                                            value="Affaires">
+                                        <label class="btn" for="business">
+                                            <i class="fas fa-briefcase"></i>
+                                            Affaires
+                                        </label>
+                                    </a>
+                                    <a href="index.html">
+                                        <input type="radio" name="reason" class="btn-check" 
+                                            value="Transit">
+                                        <label class="btn" for="transit">
+                                            <i class="fas fa-plane-departure"></i>
+                                            Transit
+                                        </label>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="error-citizenship">Veuillez sélectionner votre nationalité</p>
+                            <p class="error-reason">Veuillez sélectionner le type de votre voyage</p>
+                            <div class="button-action">
+                                <button type="submit">COMMANDEZ</button>
+                                <p style="margin: 5px 0 0 0; font-size: 12px; font-weight: 600;">Afin de vous assister
+                                    dans toutes vos démarches pour obtenir votre Visa<br>
+                                    Le service clientèle est à votre disposition 6j/7<br> du lundi au samedi de 09h à
+                                    21h.<br>
+                                    Vous pouvez contacter nos opérateurs par Chat ou E-mail<br>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="root-body">
+        <section class="order">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 order-text">
+                        <img src="./assets/images/logo-new-blue-.png" style="height: 100px; margin: 60px 0 30px 0;" alt>
+                        <h2>CANADA - PRÉPARER VOTRE VOYAGE.</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="picture-1">
+                        <img src="assets/images/logo-new.png" alt>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <ul>
+                        <li><button type="button" onclick="$('#modal-1').modal('show');">POLITIQUE DE
+                                CONFIDENTIALITÉ</button></li>
+                        <li><button type="button" onclick="$('#modal-3').modal('show');">CONDITIONS GÉNÉRALES DE
+                                VENTE</button></li>
+                        <li><button type="button" onclick="$('#modal-2').modal('show');">MENTIONS LÉGALES</button></li>
+                        <li><button type="button" onclick="$('#modal-4').modal('show');">CONTACTEZ-NOUS</button></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 copyright">
+                    © Copyright 2021 | Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="ModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 1005px!important;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel1">&nbsp;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"
+                        style="z-index: 9;"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="logo-header">
+                        <img src="./assets/images/logo-new-blue.png" style="height: 100px;" alt>
+                    </div>
+                    <div class="col-md-12 modal-content">
+                        <h2 class="modal-title mb-3">Key2702 - POLITIQUE DE CONFIDENTIALITÉ - <span>V1.0</span></h2>
+                        <h4>1. Politique de confidentialité - Objet</h4>
+                        <p class="text-justify">Nous sommes conscients de l'importance de la protection et du respect de
+                            la vie privée de nos clients. </p>
+                        <p class="text-justify">Le but de cette politique de Confidentialité, est d’informer le plus
+                            précisément possible les utilisateurs de nos sites internet de nos pratiques en matière de
+                            collecte, d'utilisation et de partage des informations fournies par le biais de nos
+                            formulaires de commande.</p>
+                        <p class="text-justify">Nous vous informons également sur les droits dont vous disposez sur vos
+                            données.</p>
+                        <h4>2. Lois applicables</h4>
+                        <p class="text-justify">Cette politique de Confidentialité est conforme aux règles générales
+                            (RGPD) sur la protection et l’utilisation des données personnelles.</p>
+                        <p class="text-justify">En utilisant notre site les utilisateurs contentent à la collecte,
+                            l’utilisation et la conservation des données utilisées dans nos formulaires de commande.</p>
+                        <h4>3. Collecte des Informations des Internautes.</h4>
+                        <p class="text-justify">Veuillez noter que nous ne collectons que les données nécessaires au bon
+                            traitement de votre commande.</p>
+                        <p class="text-justify">Lorsque vous utilisez nos plateformes, vous nous fournissez des
+                            informations, y compris des informations personnelles, lorsque vous remplissez nos
+                            formulaires de commande.</p>
+                        <p class="text-justify">A chaque connexion de nos clients, nous recueillons automatiquement des
+                            informations relatives aux appareils utilisés, telles que l’adresse IP, les données de
+                            connexion, les types et versions des navigateurs Internet utilisés, les types et versions
+                            des plugins du navigateur, les systèmes et plateformes d'exploitation.</p>
+                        <p class="text-justify">Vos données personnelles sont stockées pendant une période maximale de 5
+                            ans après la date de votre dernière commande. </p>
+                        <p class="text-justify">Les données financières sont conservées conformément aux lois fiscales
+                            et comptables applicables. </p>
+                        <p class="text-justify">Nous nous engageons à ne pas vendre ou partager vos données avec des
+                            tiers sauf si la loi l’exige, si elle est requise pour toute procédure judiciaire, pour
+                            prouver ou protéger nos droits légaux.</p>
+                        <p class="text-justify">Si votre compte a été suspendu ou bloqué, nous conservons vos données
+                            jusqu'à 5 ans à compter de la date de suspension pour empêcher les tentatives de
+                            contournement des règles d’utilisation de nos sites internet.</p>
+                        <h4>4. Utilisations et partage des données personnelles.</h4>
+                        <p class="text-justify">Nous utilisons vos données personnelles collectées pour traiter vos
+                            commandes dans les meilleures conditions, vous envoyer des informations, confirmations de
+                            commande et factures par e-mail ou SMS, collecter votre paiement, vérifier les informations
+                            contenues dans votre passeport ou tout autre document que nous avons pu recueillir lors de
+                            votre commande.</p>
+                        <p class="text-justify">Lorsque vous utilisez nos services, certaines de vos informations
+                            personnelles seront transmises aux services d'immigration des pays que vous souhaitez
+                            visiter. </p>
+                        <p class="text-justify">Nous ne partagerons vos données avec des tiers que dans le cadre des
+                            paiements effectués par carte de crédit. </p>
+                        <p class="text-justify">Nous sommes déterminés à protéger vos données personnelles et à les
+                            utiliser conformément aux lois et règlements applicables. </p>
+                        <p class="text-justify">Si vous avez des questions ou des préoccupations concernant notre
+                            politique de confidentialité, n'hésitez pas contacter notre service client par téléphone
+                            chat ou e-mail en utilisant les coordonnées indiquées sur la page contact de notre site
+                            internet.</p>
+                        <h4>5. Enregistrement et stockage de vos données personnelles</h4>
+                        <p class="text-justify">Nous ne stockons les données de nos clients uniquement après la
+                            validation de la commande, en cas d’abandons de commande en cours de saisie aucune
+                            information n’est enregistrée.</p>
+                        <p class="text-justify">Nous gardons les données que nous collectons pendant différentes
+                            périodes, en fonction de leur nature, de la manière dont nous les utilisons et de la
+                            configuration de votre commande.</p>
+                        <p class="text-justify">Nous stockons vos données personnelles dans l'Union européenne.
+                            Cependant, il est possible que les données que nous collectons lorsque vous validez votre
+                            commande soient transférées vers d'autres pays, dont certains peuvent avoir des lois de
+                            protection des données moins protectrices que celles de votre pays de résidence.</p>
+                        <p class="text-justify">En particulier, cela peut se produire lorsque nous transmettons des
+                            données à nos sous-traitants situés en dehors de l'Union européenne, y compris aux
+                            États-Unis.</p>
+                        <h4>6. Vos droits concernant vos données personnelles.</h4>
+                        <p class="text-justify">Vous avez le droit d'obtenir une copie de vos données personnelles
+                            enregistrées. Avant de répondre à votre demande, nous pouvons vérifier votre identité et
+                            vous demander de fournir des informations supplémentaires d’identification pour accepter et
+                            répondre à votre demande.</p>
+                        <p class="text-justify">Nous nous efforcerons de répondre à votre demande le plus rapidement
+                            possible et toujours conformément aux délais fixés par la loi. Vous pouvez également
+                            demander la modification ou la suppression de vos informations personnelles en nous
+                            contactant directement par e-mail.</p>
+                        <p class="text-justify">Veuillez noter que nous pouvons conserver certaines informations vous
+                            concernant lorsque la loi nous y oblige ou lorsque nous avons une raison légitime de le
+                            faire. Par exemple, si nous soupçonnons que vous avez commis une fraude ou violé nos
+                            conditions d'utilisation et que nous voulons vous empêcher de contourner les lois
+                            applicables.</p>
+                        <h4>7. Modifications de notre politique de confidentialité</h4>
+                        <p class="text-justify">Nous pouvons modifier cette politique de confidentialité à tout moment
+                            afin des rester en conformité avec les obligations légales et réglementaires.</p>
+                        <p class="text-justify">Nous vous invitons à consulter régulièrement cette page pour prendre
+                            connaissance de tout changement ou mise à jour de notre politique de confidentialité.</p>
+                        <p class="text-jsutify">En cas de changement majeur de notre politique de confidentialité nous
+                            pouvons informer nos clients par e-mail.</p>
+                        <h4>8. Contact.</h4>
+                        <p class="text-justify">Si vous avez des questions sur notre politique de confidentialité ou si
+                            vous souhaitez exercer vos droits en matière de données personnelles, veuillez contacter
+                            notre service client, disponible 7j/7 de 9h à 21h ou en remplissant notre formulaire de
+                            contact en ligne.</p>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none; background: #f9f9f9;">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="ModalLabe3" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 895px!important;">
+            <div class="modal-content">
+                <div class="modal-header" style="border: none;">
+                    <h5 class="modal-title" id="ModalLabe3">&nbsp;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="margin-top: -30px;">
+                    <div class="logo-header" style="text-align: center; margin: 0 0 30px">
+                        <img src="/formulaire./assets/images/logo-pro.png" style="height: 100px;" alt>
+                    </div>
+                    <div id="page-" class="legal" data-page="page-">
+                        <h1>MENTIONS LÉGALES</h1>
+                        <div class="content address">
+                            <p class="para">KEY2702 – FZCO</p>
+                            <p>World Trade Center</p>
+                            <p>Floor 25 - HD 79</p>
+                            <p class="para">DWTCA - UAE</p>
+                            <br>
+                            <p><small>Numéro d'enregistrement de la société L-1509 - UAE</small></p>
+                        </div>
+                        <div class="content">
+                            <span>L'hôte</span>
+                            <p>Le site est hébergé par la société OVH SAS. </p>
+                            <p> Adresse : 2 rue Kellermann - 59100 Roubaix - France </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none;">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="ModalLabe3" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 1005px!important;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabe3">&nbsp;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"
+                        style="z-index: 9;"></button>
+                </div>
+                <div class="modal-body" style="margin-top: -40px;">
+                    <div id="page-3" data-page="page-3">
+                        <div class="modal-body">
+                            <div class="logo-header">
+                                <img src="./assets/images/logo-new-blue.png" style="height: 100px;" alt>
+                            </div>
+                            <div class="col-md-12 modal-content">
+                                <h2 class="modal-title mb-3">Key2702 – Conditions Générales de Vente – <span>(1.3 –
+                                        01/01/2023)</span></h2>
+                                <h4>1 - Conditions Générales de Vente - Objet</h4>
+                                <p class="text-justify">Ces conditions générales de vente définissent les conditions et
+                                    règles de vente des e-Visa électroniques, notre site internet n’est pas un site
+                                    officiel des services de l’immigration.</p>
+                                <p class="text-justify">Nous proposons un service d’assistance dans toutes les démarches
+                                    administratives pour tout séjour ou transit dans un pays étranger. Nos prix facturés
+                                    couvrent toutes les taxes des services de l’immigration, tous les frais de gestion,
+                                    d’administration, d’archivage et de transmission par e-mail des e-Visa
+                                    électroniques.</p>
+                                <p class="text-justify">Nous proposons à tous nos clients un service client par
+                                    téléphone, Chat, e-mail tous les jours de 08 :00 à 22 :00 pour apporter assistance
+                                    dans toutes les démarches d’obtention de e-Visa électronique.</p>
+                                <p class="text-justify">En cas de perte de leur e-Visa électronique nos clients peuvent
+                                    en demander une copie qui leur sera immédiatement transmise par e-mail.</p>
+                                <p class="text-justify">Les Internautes ont toujours la possibilité de commander leur
+                                    e-Visa électronique directement sur les sites officiels d’immigration aux tarifs en
+                                    vigueur. Dans ce cas, les internautes renoncent à l’ensemble de nos services d’aide
+                                    et d’assistance.</p>
+                                <p class="text-justify">Toute utilisation du site internet et toute commande de e-Visa
+                                    électronique impliquent l’entière connaissance de nos Conditions Générales de Vente
+                                    et engage les internautes et clients à en accepter et respecter les termes et
+                                    conditions.</p>
+                                <h4>2 - Tarif de vente des e-Visa</h4>
+                                <p class="text-justify">Les prix de vente des e-Visa électroniques pourront être
+                                    modifiés à tout moment en fonction de l’évolution des tarifs gouvernementaux. </p>
+                                <p class="text-justify">Les commandes seront facturées sur la base du tarif en vigueur
+                                    au moment de la validation de la commande.</p>
+                                <p class="text-justify">Sur notre site Internet, les prix de vente sont indiqués toutes
+                                    taxes comprises. </p>
+                                <h4>3 - Paiement en ligne via Carte Bancaire</h4>
+                                <p class="text-justify">Le règlement des e-visa est réalisé en ligne, à l’aide d’une
+                                    carte bancaire en cours de validité, sur le site Internet au moment de la commande à
+                                    la fin du formulaire.</p>
+                                <p class="text-justify">Le débit de la transaction se fait au moment du paiement qui
+                                    vaut validation de la commande.</p>
+                                <p class="text-justify">Les e-Visa commandés ne seront pas livrés, en cas d'opposition
+                                    au paiement, par la carte bancaire. </p>
+                                <p class="text-justify">Le client reconnaît que la communication des informations
+                                    relatives à sa carte bancaire vaut autorisation de paiement au profit de notre
+                                    société pour la totalité du montant de la commande.</p>
+                                <h4>4 - Renoncement au droit de rétractation</h4>
+                                <p class="text-justify">Pour tous les achats en ligne un internaute dispose, à compter
+                                    de la réception de sa commande, d’un délai légal de rétractation, pour annuler sa
+                                    commande sans avoir à justifier de motifs.</p>
+                                <p class="text-justify">Le droit de rétractation ne s'applique pas aux prestations de
+                                    services d’abonnements immatériels qui sont entièrement exécutés avant la fin du
+                                    délai de rétractation et dont l'exécution a commencé, après accord préalable exprès
+                                    de l’internaute et renoncement exprès à son droit de rétractation.</p>
+                                <p class="text-justify">En acceptant les conditions générales de vente l'utilisateur
+                                    donne expressément son accord pour recevoir le e-Visa commandé avant la fin de son
+                                    délai de rétractation, il renonce définitivement à son droit de rétractation,
+                                    accepte que sa demande soit traitée sans délais et il accepte de recevoir son e-Visa
+                                    dans les plus brefs délais.</p>
+                                <h4>5 - Conditions de remboursement</h4>
+                                <p class="text-justify">Dans le cadre des e-Visa électronique les commandes sont
+                                    traitées dès réception dans les délais les plus courts, afin d’accélérer au maximum
+                                    la réception du e-Visa électronique définitif.</p>
+                                <p class="text-justify">Il est donc impossible de rembourser une demande de e-Visa
+                                    électronique dès qu’elle a été reçue et traitée par notre service production.</p>
+                                <p class="text-justify">Les frais de la demande d'e-Visa électronique ne sont pas
+                                    remboursables. </p>
+                                <p class="text-justify">Si un e-Visa existe déjà en duplicata, dans le cas d’une demande
+                                    antérieure sur une autre plateforme, il ne sera pas possible d’en effectuer le
+                                    remboursement.</p>
+                                <p class="text-justify">Uniquement les e-Visa électroniques non traités, ou les dossiers
+                                    incomplets, ou les demandes de remboursement avant traitement ou les clients
+                                    non-éligibles détectés par notre service client seront remboursés, à l’exception de
+                                    40 € de frais de prise en charge et début de traitement.</p>
+                                <p class="text-justify">En cas de refus de délivrance du e-Visa électronique par les
+                                    services du gouvernement du pays de destination, pour quelle raison que ce soit,
+                                    aucun remboursement ne pourra être accordé.</p>
+                                <p class="text-justify">En achetant des services e-Visa électronique sur notre site Web,
+                                    l’internaute doit obligatoirement en accepter tous les termes de nos conditions
+                                    générales de vente avant de valider son paiement.</p>
+                                <p class="text-justify">L’acceptation express de nos conditions générales de vente avant
+                                    paiement, l’approbation de l’ensemble des informations renseignées sur les
+                                    formulaires de notre site constituent une renonciation au droit à un remboursement
+                                    et de rétractation dès la phase de paiement validée.</p>
+                                <p class="text-justify">Si une erreur importante est commise dans votre demande
+                                    initiale, nous soumettrons à nouveau la demande en votre nom sans frais
+                                    supplémentaires, mais aucun remboursement ne sera effectué.</p>
+                                <h4>6 - Déclaration de l’internaute</h4>
+                                <p class="text-justify">En acceptant ces conditions générales de vente, l’internaute
+                                    confirme avoir pris connaissance et compris l’ensemble des termes et, déclare sur
+                                    l’honneur que toutes les informations sont sincères et véridiques.</p>
+                                <p class="text-justify">L’internaute déclare que tous les renseignements indiqués, lors
+                                    de la commande de son e-Visa électronique, sont exacts et conformes avec la loi de
+                                    son pays. </p>
+                                <p class="text-justify">Il est rappelé que toute fausse déclaration pourra conduire à
+                                    une interdiction de séjour sur le territoire étranger et un blocage aux frontières
+                                    lors de l’entrée sur le territoire.</p>
+                                <h4>7 - Contrat en ligne engagement contractuel</h4>
+                                <p class="text-justify">Le contrat est conclu au moment où l’internaute valide, confirme
+                                    et paye sa commande sur le site internet, conformément aux dispositions légales sur
+                                    la conclusion des contrats en ligne.</p>
+                                <p class="text-justify">Au moment du règlement en ligne, le détail de toutes les
+                                    informations de la commande est indiqué sur l’écran de validation de paiement.</p>
+                                <p class="text-justify">L’internaute peut, à tout moment, corriger sa commande avant
+                                    d’en effectuer le règlement.</p>
+                                <p class="text-justify">Les contrats sont archivés pour une durée de 5 ans, tout client
+                                    peut accéder à son contrat, il devra uniquement en faire la demande par courrier
+                                    électronique auprès du service client, à l'adresse e-mail indiquée sur la page
+                                    contact de notre site, ou de sa facture.</p>
+                                <h4>8 - Responsabilité</h4>
+                                <p class="text-justify">Les services de e-Visa électroniques proposés sont destinés à
+                                    assister les internautes dans toutes leurs démarches de préparation de voyage. Notre
+                                    responsabilité ne saurait être engagée en cas de non-respect, par le client, de la
+                                    législation du pays pour lequel le e- Visa électronique est délivré.</p>
+                                <p class="text-justify">Notre responsabilité ne pourra en aucun cas être engagée pour
+                                    tous les inconvénients ou dommages relatifs à l'utilisation du réseau Internet,
+                                    intrusion extérieure, rupture de service, ou présence de virus informatiques.</p>
+                                <h4>9 - Droit applicable</h4>
+                                <p class="text-justify">De convention express entre les parties, les présentes
+                                    Conditions Générales de Vente sont régies et soumises au droit UAE.</p>
+                                <h4>10 - Litiges</h4>
+                                <p>En cas de litige sur une commande, les parties privilégieront en premier ressort le
+                                    recours à un accord amiable ou à une procédure de médiation ou de conciliation
+                                    conventionnelle. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none; background: #f9f9f9;">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="ModalLabe4" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 900px!important;">
+            <div class="modal-content">
+                <div class="modal-header" style="border: none; background: #f9f9f9;">
+                    <h5 class="modal-title" id="ModalLabe4">&nbsp;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"
+                        style="z-index: 9;"></button>
+                </div>
+                <div class="modal-body" style="background: #f9f9f9; margin-top: -40px;">
+                    <div class="logo-header" style="text-align: center; margin: 0 0 30px"><img
+                            src="./assets/images/logo-new-blue.png" style="height: 80px;" alt></div>
+                    <div class="page-contact">
+                        <p class="fisrt-text">CONTACTEZ NOUS</p>
+                        <div class="row page-contact">
+                            <div class="col-md-6 contact-info" id="contact-info">
+                                <div class="item-contact">
+                                    <h2>Adresse :</h2>
+                                    <p class="para">KEY2702 – FZCO</p>
+                                    <p>World Trade Center</p>
+                                    <p>Floor 25 - HD 79</p>
+                                    <p class="para">DWTCA - UAE</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 contact-form">
+                                <form method="post" id="form-contact">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Nom" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email"
+                                            placeholder="Adresse e-mail (exemple@exemple.com)" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="sujet" placeholder="Sujet"
+                                            required>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea rows="5" name="message" class="form-control"
+                                            placeholder="Votre message" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit">ENVOYER</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer" style="border: none; background: #f9f9f9;">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-5" tabindex="-1" aria-labelledby="ModalLabe5" aria-hidden="true">
+        <div class="modal-dialog" style="max-width: 900px!important;">
+            <div class="modal-content">
+                <div class="modal-header" style="border: none; background: #f9f9f9;">
+                    <h5 class="modal-title" id="ModalLabe3">&nbsp;</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"
+                        style="z-index: 9;"></button>
+                </div>
+                <div class="modal-body" style="background: #f9f9f9; margin-top: -40px;">
+                    <p class="send-mail-contact">Votre message a été envoyé avec succès,<br>notre équipe vous contactera
+                        dès que possible.</p>
+                </div>
+                <div class="modal-footer" style="border: none; background: #f9f9f9;">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" id="usercode" value="UVFNVEI5T1JzMFM4MTkzemtzb0psZz09">
+    <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bundle.js"></script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6284dfc67b967b11798ffe29/1g3bgp50q';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+</body>
+
+</html>
